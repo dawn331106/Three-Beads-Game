@@ -7,7 +7,7 @@ import javax.swing.*;
 /*
      This class handles the gameplay of two players  
 */
-public class Gameplay extends JPanel implements ActionListener,KeyListener,MouseListener{
+public class GamePlay extends JPanel implements ActionListener,KeyListener,MouseListener{
     // Coordinates of three beads of the first player
     private int x1=15,y1=28,x2=415,y2=28,x3=815,y3=28;
     
