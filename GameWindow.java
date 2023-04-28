@@ -11,7 +11,7 @@ public class GameWindow extends JFrame{
     public GameWindow()
     {
         makeWindow();
-        Gameplay gameplay=new Gameplay();
+        GamePlay gameplay=new GamePlay();
         // Add Game Play window instance to this window
         add(gameplay);
     }
